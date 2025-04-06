@@ -25,7 +25,7 @@ import Layout from "@/layouts/Layout/Layout.astro";
 // Copyright 组件
 import Copyright from "@/components/Copyright/Copyright.astro";
 // Reward 组件
-import Reward from "@/components/Reward/Reward.astro";
+// import Reward from "@/components/Reward/Reward.astro";
 // 评论组件
 import { checkComment } from "@/scripts/Comment";
 import Comment from "@/components/Comment/Comment.astro";
@@ -73,7 +73,7 @@ import "@/styles/ArticleBase.less";
 		</main>
 		<footer>
 			<!-- 打赏组件 -->
-			<Reward />
+			<!--<Reward />-->
 			<!-- 版权©️信息 -->
 			<Copyright site={Site} id={post.data.id} title={post.data.title} sitename={Title} time={fmtTime(post.data.date, "YYYY-MM-DD A")} auther={Author} />
 			<!-- 底部谷歌广告 -->

@@ -20,7 +20,7 @@ const CountInfo = getCountInfo();
 // 最新文章
 const recommendArticles = getRecommendArticles();
 // Google 广告组件
-import GoogleAd from "@/components/GoogleAd/GoogleAd.astro";
+// import GoogleAd from "@/components/GoogleAd/GoogleAd.astro";
 // 侧边栏样式
 import "./Aside.less";
 ---
@@ -71,8 +71,8 @@ import "./Aside.less";
 					公告
 				</span>
 				<div class="tips-content">
-					<p>欢迎访问我的博客，我是一名前端工程师，喜欢分享前端知识和技巧。</p>
-					<p>如果你对我的博客感兴趣，欢迎关注我的公众号，我会定期发布一些前端技术文章和教程。</p>
+					<p>这是一个MIT开源的博客展示，作者地址为：<a href="https://github.com/uxiaohan" target="_blank" rel="noopener nofollow">uxiaohan</a>，你可以在找到一些前端技术文章和其他教程。</p>
+					<p>然后才是我的博客，感觉在这里发文章有点小爽，比盆友圈好受多了，盆友圈里就没有什么人和我有相同的兴趣，烦死了</p>
 				</div>
 			</section>
 		)
@@ -136,13 +136,13 @@ import "./Aside.less";
 		}
 
 		<!-- 谷歌广告块 -->
-		{
-			GoogleAds.ad_Client && GoogleAds.asideAD_Slot && (
-				<section class="vh-aside-item ad">
-					<h3>广而告之</h3>
-					<GoogleAd className="vh-aside-ad" slotID={GoogleAds.asideAD_Slot} />
-				</section>
-			)
-		}
+		<!--{-->
+		<!--	GoogleAds.ad_Client && GoogleAds.asideAD_Slot && (-->
+		<!--		<section class="vh-aside-item ad">-->
+		<!--			<h3>广而告之</h3>-->
+		<!--			<GoogleAd className="vh-aside-ad" slotID={GoogleAds.asideAD_Slot} />-->
+		<!--		</section>-->
+		<!--	)-->
+		<!--}-->
 	</section>
 </aside>

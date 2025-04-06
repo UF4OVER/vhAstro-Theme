@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "rm -rf .astro && astro dev",
+    "dev": "rmdir /s /q .astro && astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
