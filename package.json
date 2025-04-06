@@ -15,7 +15,10 @@
     "node": ">=18.19.0"
   },
   "overrides": {
-    "yaml": "2.7.1"
+    "yaml": "2.7.1",
+    "cosmiconfig": { "yaml": "2.7.1" },
+    "cssnano": { "yaml": "2.7.1" },
+    "postcss-load-config": { "yaml": "2.7.1" }
   },
   "dependencies": {
     "@astrojs/mdx": "^4.2.3",
