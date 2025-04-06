@@ -7,7 +7,7 @@ export default {
   Motto: '没有实力，全是开源',
   Avatar: 'https://zycs-img-c5u.pages.dev/v2/0SvXlBD.jpeg',
   // Cover 网站缩略图
-  Cover: '/assets/images/banner/072c12ec85d2d3b5.webp',
+  Cover: '',
   // 网站创建时间
   CreateTime: '2025-02-01',
   // 首页打字机文案列表
@@ -18,13 +18,13 @@ export default {
   // 顶部 Banner 配置
   HomeBanner: {
     enable: true,
-    cover: '/assets/images/home-banner.webp'
+    cover: 'https://api.vvhan.com/api/wallpaper/acg'
   },
   // 博客主题配置
   Theme: {
     // 颜色请用 16 进制颜色码
     // 主题颜色
-    "--vh-main-color": "rgba(255,179,41,0.78)",
+    "--vh-main-color": "rgba(232,159,28,0.78)",
     // 字体颜色
     "--vh-font-color": "#000000",
     // 侧边栏宽度
@@ -90,7 +90,7 @@ export default {
     // Waline 评论
     Waline: {
       enable: true,
-      serverURL: 'https://vercel.uf4.top'
+      serverURL: 'https://myblog-uf4overs-projects.vercel.app\n'
     }
   },
   // Han Analytics 统计（https://github.com/uxiaohan/HanAnalytics）

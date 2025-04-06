@@ -14,9 +14,10 @@ type: "about"
 ## 我使用的工具
 
 <div class="language-tool">
-  <a href="https://www.python.org" target="_blank" rel="noopener nofollow"><Image width="1" height="1" src="/assets/images/lazy-loading.webp" data-vh-lz-src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
-  <a href="https://git-scm.com/" target="_blank" rel="noopener nofollow"><Image width="1" height="1" src="/assets/images/lazy-loading.webp" data-vh-lz-src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" /> </a>
-  <a href="https://github.com/" target="_blank" rel="noopener nofollow"><Image width="1" height="1" src="/assets/images/lazy-loading.webp" data-vh-lz-src="https://img.shields.io/badge/Github-634c54?style=for-the-badge&logo=Github&logoColor=white" alt="Git" /> </a>
+<a href="https://www.python.org" target="_blank" rel="noopener nofollow"><Image width="1" height="1" src="/assets/images/lazy-loading.webp" data-vh-lz-src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
+<a href="https://git-scm.com/" target="_blank" rel="noopener nofollow"><Image width="1" height="1" src="/assets/images/lazy-loading.webp" data-vh-lz-src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" /> </a>
+<a href="https://github.com/" target="_blank" rel="noopener nofollow"><Image width="1" height="1" src="/assets/images/lazy-loading.webp" data-vh-lz-src="https://img.shields.io/badge/Github-634c54?style=for-the-badge&logo=Github&logoColor=white" alt="GitHub" /> </a>
+<a href="https://cloudflare.com/" target="_blank" rel="noopener nofollow"><Image width="1" height="1" src="/assets/images/lazy-loading.webp" data-vh-lz-src="https://img.shields.io/badge/Cloudflare-ee730a?style=for-the-badge&logo=Cloudflare&logoColor=white" alt="Cloudflare" /></a>
 
 </div>
 
