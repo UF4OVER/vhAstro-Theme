@@ -74,7 +74,7 @@ export default {
   // DNS预解析地址
   DNSOptimization: [
     'https://i0.wp.com',
-    'https://analytics.vvhan.com',
+    'https://analytic.uf4.top',
     'https://vh-api.4ce.cn',
     'https://registry.npmmirror.com',
   ],
@@ -89,8 +89,8 @@ export default {
     },
     // Waline 评论
     Waline: {
-      enable: true,
-      serverURL: 'https://myblog-uf4overs-projects.vercel.app\n'
+      enable: false,
+      serverURL: ''
     }
   },
   // Han Analytics 统计（https://github.com/uxiaohan/HanAnalytics）
