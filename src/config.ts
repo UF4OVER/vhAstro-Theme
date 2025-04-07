@@ -79,7 +79,7 @@ export default {
     'https://registry.npmmirror.com',
   ],
   // 博客音乐组件解析接口
-  vhMusicApi: 'https://vh-api.4ce.cn/blog/meting',
+  vhMusicApi: '',
   // 评论组件（只允许同时开启一个）
   Comment: {
     // Twikoo 评论
