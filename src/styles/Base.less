@@ -2,7 +2,7 @@
 
 :root {
 	// 白色颜色
-	--vh-white-color: #fff;
+	--vh-white-color: #efe9e9;
 	// BoxShadow
 	--vh-box-shadow: 0 3px 8px 6px #07111b0d;
 	// Body 背景颜色
@@ -292,7 +292,54 @@ html.is-animating {
 	}
 }
 
+// 主色系调整为灰色
+@primary-color: #808080;
+@primary-color-hover: #a9a9a9;
+@primary-color-active: #555;
 
+// 状态色调整为灰色变体
+@success-color: #666;
+@warning-color: #888;
+@error-color: #444;
+
+// 添加灰色层次变量
+@gray-1: #f5f5f5;
+@gray-2: #eaeaea;
+@gray-3: #cccccc;
+@gray-4: #999999;
+@gray-5: #666666;
+
+// 链接与文本颜色
+@link-color: @gray-5;
+@text-color: @gray-4;
+@text-color-secondary: @gray-3;
+
+// 边框颜色
+@border-color-base: @gray-2;
+@border-color-split: @gray-1;
+
+// 按钮默认样式
+.btn-default {
+  background-color: @gray-1;
+  border-color: @gray-2;
+  color: @gray-5;
+  
+  &:hover {
+    background-color: @gray-2;
+    border-color: @gray-3;
+  }
+}
+
+// 表单控件样式
+.input-default {
+  border-color: @gray-2;
+  background-color: @gray-1;
+  
+  &:focus {
+    border-color: @gray-3;
+    box-shadow: 0 0 0 2px fade(@gray-3, 20%);
+  }
+}
 
 @keyframes vh-init-show {
 	0% {
