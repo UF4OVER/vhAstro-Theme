@@ -60,18 +60,5 @@ import "@/styles/Base.less";
 	<link rel="canonical" href={canonicalURL} />
 	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 	<slot />
-		<script>
-			// 如果当前是中国大陆时区，则跳转加速域名
-			if (
-				typeof Intl !== "undefined" &&
-				Intl.DateTimeFormat().resolvedOptions().timeZone.includes("Asia/Shanghai")
-			) {
-				const current = window.location.href;
-				if (!current.includes("cn.blog.uf4.top")) {
-					const target = current.replace("blog.uf4.top", "cn.blog.uf4.top");
-					window.location.href = target;
-				}
-			}
-		</script>
 
 </head>
