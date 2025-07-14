@@ -89,8 +89,9 @@ export default {
     },
     // Waline 评论
     Waline: {
-      enable: false,
-      serverURL: ''
+      enable: true,
+      serverURL: '\n' +
+          'myblog-uf4overs-projects.vercel.app\n'
     }
   },
   // Han Analytics 统计（https://github.com/uxiaohan/HanAnalytics）
