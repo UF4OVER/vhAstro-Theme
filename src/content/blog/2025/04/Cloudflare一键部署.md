@@ -97,7 +97,6 @@ save-exact=true
 
 ```bash
 rm -rf node_modules package-lock.json npm install --force
-# 只要删除 node_modules package-lock.json 再次执行 npm install --force 即可
 ```
 **验证命令**
 ```bash
