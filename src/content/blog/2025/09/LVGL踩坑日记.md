@@ -102,7 +102,7 @@ git checkout v8.4
 - lvgl的任务处理函数最好也放在一个定时器中，定时器中断中调用lv_task_handler()，使用5ms的定时器
     - 定时器TIM7配置
     - ```c
-     void MX_TIM7_Init(void){
+      void MX_TIM7_Init(void){
          TIM_MasterConfigTypeDef sMasterConfig = {0};
          htim7.Instance = TIM7;
          htim7.Init.Prescaler = 420-1;
@@ -117,8 +117,8 @@ git checkout v8.4
          if (HAL_TIMEx_MasterConfigSynchronization(&htim7, &sMasterConfig) != HAL_OK){
              Error_Handler();
          }
-     }
-     ```
+      }
+      ```
 
 #### 2.2 SPI配置
 - 使用ABH1总线上的spi1，速度能快一点
