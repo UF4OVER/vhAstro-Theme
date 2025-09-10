@@ -2,11 +2,11 @@
 
 :root {
 	// 白色颜色
-	--vh-white-color: #efe9e9;
+	--vh-white-color: rgba(79, 78, 78, 0.78);
 	// BoxShadow
 	--vh-box-shadow: 0 3px 8px 6px #07111b0d;
 	// Body 背景颜色
-	--vh-body-bg: #F8F8F8;
+	--vh-body-bg: rgba(75, 54, 54, 0.79);
 	// Back Top 按钮位置
 	--vh-back-top: calc((calc(100vw - 2rem) - min((100vw - 2rem), var(--vh-main-max-width))) / 2);
 	// Main Header 封面高度
@@ -64,7 +64,7 @@
 // 设置文本选中颜色
 ::selection,
 ::-webkit-selection {
-	color: #fff;
+	color: rgba(190, 92, 92, 0.82);
 	background: var(--vh-main-color-88);
 }
 
@@ -80,8 +80,8 @@ html {
 		display: flex;
 		flex-direction: column;
 		width: 100vw;
+		background-color: var(--vh-body-bg);
 		height: max-content;
-		color: var(--vh-font-color);
 		font-family: 'HarmonyOS Sans SC', serif;
 		font-weight: 400;
 		cursor: url('/assets/images/default.cur'), default;

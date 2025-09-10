@@ -1,6 +1,6 @@
 export default {
   Title: 'UF4的动态',
-  Site: 'https://uf4.top',
+  Site: 'https://hepi.ng',
   Subtitle: '好戏存烟火，且看且丛容',
   Description: '热爱硬件与PYQT的大学生',
   Author: 'UF4',
@@ -18,15 +18,15 @@ export default {
   // 顶部 Banner 配置
   HomeBanner: {
     enable: true,
-    cover: 'https://api.vvhan.com/api/wallpaper/acg'
+    cover: 'http://www.98qy.com/sjbz/api.php'
   },
   // 博客主题配置
   Theme: {
     // 颜色请用 16 进制颜色码
     // 主题颜色
-    "--vh-main-color": "rgba(232,159,28,0.78)",
+    "--vh-main-color": "rgba(26,80,86,0.78)",
     // 字体颜色
-    "--vh-font-color": "#000000",
+    "--vh-font-color": "#e5e0dd",
     // 侧边栏宽度
     "--vh-aside-width": "333px",
     // 全局圆角
@@ -44,7 +44,7 @@ export default {
     { text: '昔日', link: '/archives', icon: 'Nav_archives' },
     // { text: '留言', link: '/message', icon: 'Nav_message' },
     { text: '关于', link: '/about', icon: 'Nav_about' },
-    // { text: 'API', link: 'https://api.vvhan.com/', target: true, icon: 'Nav_link' },
+    { text: '图床', link: 'https://img.hepi.ng/', target: true, icon: 'Nav_link' },
   ],
   // 侧边栏个人网站
   WebSites: [
@@ -53,7 +53,7 @@ export default {
     { text: 'Github', link: 'https://github.com/UF4OVER', icon: 'WebSite_github' },
     // { text: '韩小韩API', link: 'https://api.vvhan.com', icon: 'WebSite_api' },
     // { text: '每日热榜', link: 'https://hot.vvhan.com', icon: 'WebSite_hot' },
-    { text: 'UF4の图床', link: 'https://img.uf4.top', icon: 'WebSite_img' },
+    { text: 'UF4の图床', link: 'https://img.hepi.ng', icon: 'WebSite_img' },
     { text: 'UF4 Analytic', link: 'https://analytic.uf4.top', icon: 'WebSite_analytics' },
   ],
   // 侧边栏展示
@@ -97,7 +97,7 @@ export default {
   HanAnalytics: { enable: true, server: 'https://analytic.uf4.top', siteId: 'UF4Blog' },
   // Google 广告
   GoogleAds: {
-    ad_Client: '', //ca-pub-xxxxxx
+    ad_Client: '',
     // 侧边栏广告(不填不开启)
     asideAD_Slot: ``,
     // 文章页广告(不填不开启)
